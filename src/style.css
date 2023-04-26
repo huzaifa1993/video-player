@@ -35,7 +35,8 @@ body {
 
 video {
   border-radius: 5px;
-
+  width: 100%;
+  height: auto;
 }
 
 .show-controls {
@@ -197,7 +198,10 @@ select > option {
 }
 
 @media screen and (max-width: 600px) {
-
+  .player {
+    min-width: 0;
+    max-width: 95vw;
+  }
 
   .fas {
     font-size: 20px;
