@@ -168,9 +168,13 @@ video {
 }
 
 
+select,
+option {
+  cursor: pointer;
+}
 
 select {
-
+  background: transparent;
   color: var(--font-color);
   border: none;
   font-size: 18px;
@@ -179,6 +183,9 @@ select {
   border-radius: 5px;
 }
 
+select:focus {
+  outline: none;
+}
 
 
 select > option {
