@@ -35,4 +35,9 @@ togglePlay():
 -This function does not accept any parameters.
 -it returns void.
 
-
+updateProgress():
+-This JavaScript function is responsible for updating the progress bar on the video player interface to reflect the current playback progress of the video.
+-Calculates the current position of the video playback as a percentage of the total duration.
+-Sets the width style property of the progress bar element to the calculated percentage value.
+-This function does not accept any parameters.
+-it returns void.

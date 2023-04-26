@@ -26,5 +26,15 @@ function togglePlay() {
     }
 }
 video.addEventListener('ended', showPlayIcon);
+
+
+function updateProgress() {
+    progressBar.style.width = `${(video.currentTime / video.duration) * 100}%`;
+
+}
+
+
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
+video.addEventListener('timeupdate', updateProgress);
+video.addEventListener('canplay', updateProgress);
