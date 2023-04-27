@@ -41,3 +41,17 @@ updateProgress():
 -Sets the width style property of the progress bar element to the calculated percentage value.
 -This function does not accept any parameters.
 -it returns void.
+
+
+ setProgress(e):
+ -This function is responsible for updating the progress bar of a video player when the user clicks on the progress bar element. 
+ -it sets the current time of the video to the new time.
+ -It takes (e) as parameter
+ -it returns void
+
+
+displayTime(time):
+-it is responsible for converting a time value in seconds to format of minutes and seconds.
+-If the seconds are less than 10, the function adds 0 to the seconds.
+-it takes (time) as parameter
+-it returns a string value in the minutes:seconds format.
