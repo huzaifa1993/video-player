@@ -64,3 +64,11 @@ changeVolume(e):
 -It calculates the new volume based on the position of the user's input within the volume range.
 -If the new volume is less than 0.1, the function sets it to 0.
 -If the new volume is greater than 0.9, the function sets it to 1.
+
+ changeSpeed():
+ -This function is responsible for changing the playback speed of the video player 
+ -it gets the value of the speed element, which represents the selected playback rate.
+ -it does not take any parameters.
+ -it returns void.
+
+
