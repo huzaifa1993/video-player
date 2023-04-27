@@ -55,3 +55,12 @@ displayTime(time):
 -If the seconds are less than 10, the function adds 0 to the seconds.
 -it takes (time) as parameter
 -it returns a string value in the minutes:seconds format.
+
+
+changeVolume(e):
+-This function is responsible for changing the volume of the video player
+-It takes (e) as parameter.
+-it returns void.
+-It calculates the new volume based on the position of the user's input within the volume range.
+-If the new volume is less than 0.1, the function sets it to 0.
+-If the new volume is greater than 0.9, the function sets it to 1.
