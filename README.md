@@ -72,3 +72,27 @@ changeVolume(e):
  -it returns void.
 
 
+toggleMute():
+-this function is resposible for toggling the mute state of a video player.
+-it does not take any parameters.
+-it returns void.
+
+ toggleFullscreen():
+ -this function is resposible for toggling the fullscreen mode.
+ -it checks if the element is currently in fullscreen mode, and either opens fullscreen mode for the element if it is not already in fullscreen mode
+ -it closes fullscreen mode for the element if it is currently in fullscreen mode.
+ -it does not take any parameters.
+ -it returns void.
+
+ openFullscreen(elem):
+ -function is resposible for openning the fullscreen mode.
+ -checks if the browser supports fullscreen mode.
+ -it adds a CSS class to the video element to style it for fullscreen mode.
+
+
+closeFullscreen():
+-function is resposible for closing the fullscreen mode.
+-Once full-screen mode is exited, the function removes the video-fullscreen class from the video element.
+-it does not take any parameters.
+
+
