@@ -87,7 +87,7 @@ video {
 .progress-range {
   height: 8px;
   width: calc(100% - 30px);
-  background: rgba(202, 202, 202, 0.5);
+  background: rgba(202, 202, 203, 0.5);
   margin: auto;
   border-radius: 10px;
   position: absolute;
@@ -95,7 +95,6 @@ video {
   top: 15px;
   cursor: pointer;
   transition: height 0.1s ease-out;
-
 }
 
 .progress-range:hover {
@@ -167,7 +166,6 @@ video {
   margin-right: 15px;
 }
 
-
 select,
 option {
   cursor: pointer;
@@ -186,7 +184,6 @@ select {
 select:focus {
   outline: none;
 }
-
 
 select > option {
   background: rgba(0, 0, 0, 0.9);
