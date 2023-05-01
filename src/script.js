@@ -1,4 +1,4 @@
-import {player, video,progressRange,progressBar,playBtn,volumeIcon,volumeRange,volumeBar,speed,currentTime,duration,fullscreenBtn} from './module.js'
+import {player, video,progressRange,progressBar,playBtn,volumeIcon,volumeRange,volumeBar,speed,currentTime,duration,fullscreenBtn} from './elements.js'
 
 function showPlayIcon() {
     playBtn.classList.replace("fa-pause", "fa-play");
