@@ -111,12 +111,56 @@ function toggleFullscreen() {
   fullscreen = !fullscreen;
 }
 
-playBtn.addEventListener("click", togglePlay);
-video.addEventListener("click", togglePlay);
-video.addEventListener("timeupdate", updateProgress);
-video.addEventListener("canplay", updateProgress);
-progressRange.addEventListener("click", setProgress);
-volumeRange.addEventListener("click", changeVolume);
-volumeIcon.addEventListener("click", toggleMute);
-speed.addEventListener("change", changeSpeed);
-fullscreenBtn.addEventListener("click", toggleFullscreen);
+
+const eventArr = [
+    {
+        htmlEle : playBtn,
+        eventType : "click",
+        func : togglePlay
+    },
+    {
+        htmlEle : video,
+        eventType : "click",
+        func : togglePlay
+    },
+    {
+        htmlEle : video,
+        eventType : "timeupdate",
+        func : updateProgress
+    },
+    {
+        htmlEle : video,
+        eventType : "canplay",
+        func : updateProgress
+    },
+    {
+        htmlEle : progressRange,
+        eventType : "click",
+        func : setProgress
+    },
+    {
+        htmlEle : volumeRange,
+        eventType : "click",
+        func : changeVolume
+    },
+    {
+        htmlEle : volumeIcon,
+        eventType : "click",
+        func : toggleMute
+    },
+    {
+        htmlEle : speed,
+        eventType : "change",
+        func : changeSpeed
+    },
+    {
+        htmlEle : fullscreenBtn,
+        eventType : "click",
+        func : toggleFullscreen
+    },
+   
+]
+
+eventArr.map(item => item.htmlEle.addEventListener(item.eventType, item.func))
+
+
