@@ -1,14 +1,14 @@
 # video-player
 
-This is a simple video player application that allows users to play and control video on their device.
+This is a simple video player application that allows users to play and control video on their device.<br>
 
-Features:
-Full-screen mode toggle
-Simple and user-friendly interfac
-Play/pause control
-Volume control
-Playback rate control
-Progress bar
+Features:<br>
+Full-screen mode toggle<br>
+Simple and user-friendly interfac<br>
+Play/pause control<br>
+Volume control<br>
+Playback rate control<br>
+Progress bar<br>
 
 Technologies Used:
 HTML, CSS, JavaScript
